@@ -1,0 +1,8 @@
+{
+  "name": "react-typescript-components-library-starter",
+  "version": "0.0.0",
+  "description": "Starter kit for creating react/typescript components library",
+  "repository": "git@github.com:prodev-ag/react-typescript-components-library-starter.git",
+  "author": "ag <prodev.ag@gmail.com>",
+  "license": "MIT"
+}
