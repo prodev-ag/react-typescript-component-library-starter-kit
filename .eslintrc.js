@@ -1,4 +1,5 @@
 module.exports = {
+  root: true,
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 2021,
@@ -25,4 +26,4 @@ module.exports = {
     'plugin:prettier/recommended',
   ],
   rules: {},
-}
+};
