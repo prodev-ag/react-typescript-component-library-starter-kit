@@ -5,6 +5,10 @@
   "repository": "git@github.com:prodev-ag/react-typescript-components-library-starter.git",
   "author": "ag <prodev.ag@gmail.com>",
   "license": "MIT",
+  "workspaces": [
+    "packages/core",
+    "packages/icons"
+  ],
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.48.0",
     "@typescript-eslint/parser": "^5.48.0",
