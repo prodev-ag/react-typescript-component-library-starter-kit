@@ -1,0 +1,28 @@
+module.exports = {
+  parser: '@typescript-eslint/parser',
+  parserOptions: {
+    ecmaVersion: 2021,
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true,
+    },
+  },
+  env: {
+    browser: true,
+    jest: true,
+  },
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
+  extends: [
+    'plugin:react/recommended',
+    'plugin:react-hooks/recommended',
+    'plugin:@typescript-eslint/recommended',
+    'plugin:jest-dom/recommended',
+    'plugin:jest/recommended',
+    'plugin:prettier/recommended',
+  ],
+  rules: {},
+}
