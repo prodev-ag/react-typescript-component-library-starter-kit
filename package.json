@@ -4,5 +4,8 @@
   "description": "Starter kit for creating react/typescript components library",
   "repository": "git@github.com:prodev-ag/react-typescript-components-library-starter.git",
   "author": "ag <prodev.ag@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
 }
