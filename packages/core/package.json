@@ -1,0 +1,29 @@
+{
+  "name": "@core",
+  "version": "0.0.1",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
+  "devDependencies": {},
+  "dependencies": {},
+  "peerDependencies": {
+    "@icons": "^0.0.1"
+  },
+  "scripts": {},
+  "browserslist": {
+    "production": [
+      ">0.25%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
