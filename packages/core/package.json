@@ -1,5 +1,5 @@
 {
-  "name": "@core",
+  "name": "@library/core",
   "version": "0.0.1",
   "files": [
     "dist"
@@ -8,10 +8,12 @@
   "main": "dist/index.umd.js",
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
-  "devDependencies": {},
+  "devDependencies": {
+    "rollup": "^3.9.1"
+  },
   "dependencies": {},
   "peerDependencies": {
-    "@icons": "^0.0.1"
+    "@library/icons": "^0.0.1"
   },
   "scripts": {},
   "browserslist": {
