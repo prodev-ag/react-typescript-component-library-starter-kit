@@ -1,9 +1,9 @@
 import resolve from "@rollup/plugin-node-resolve";
-import { uglify } from "rollup-plugin-uglify";
+import commonjs from "@rollup/plugin-commonjs";
 import typescript from "@rollup/plugin-typescript";
+import { uglify } from "rollup-plugin-uglify";
 import dts from "rollup-plugin-dts";
 import { terser } from "rollup-plugin-terser";
-import commonjs from "@rollup/plugin-commonjs";
 
 import pkg from "./package.json" assert { type: "json" };
 
@@ -14,7 +14,7 @@ export default [
       {
         file: pkg.main,
         format: "umd",
-        name: "@library-core",
+        name: "@library-icons",
         sourcemap: true,
         plugins: [uglify()],
       },
@@ -30,7 +30,7 @@ export default [
       commonjs(),
       typescript({ tsconfig: "./tsconfig.json" }),
     ],
-    external: ["@library/icons"],
+    external: ["react", "react-dom"],
   },
   {
     input: "dist/esm/index.d.ts",
