@@ -17,8 +17,8 @@
     "experimentalDecorators": true,
     "baseUrl": "packages",
     "paths": {
-      "@library/core/*": ["packages/core/*"],
-      "@library/icons/*": ["packages/icons/*"],
+      "@library/core": ["packages/core/src"],
+      "@library/icons": ["packages/icons/src"],
     }
   }
 }
