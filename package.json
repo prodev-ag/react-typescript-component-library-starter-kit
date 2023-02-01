@@ -5,13 +5,18 @@
   "private": true,
   "workspaces": [
     "packages/core",
-    "packages/icons"
+    "packages/icons",
+    "packages/storybook"
   ],
   "repository": "git@github.com:prodev-ag/react-typescript-components-library-starter.git",
   "author": "ag <prodev.ag@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "export NODE_ENV=production && yarn workspaces run build"
+    "build": "export NODE_ENV=production && yarn workspaces run build",
+    "storybook": "yarn workspace @library/storybook storybook"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.48.0",
