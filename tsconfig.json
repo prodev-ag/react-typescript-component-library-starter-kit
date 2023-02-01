@@ -7,7 +7,7 @@
     "strict": true,
     "skipLibCheck": true,
     "declaration": true,
-    "declarationDir": "types",
+    "outDir": "dist",
     "sourceMap": true,
     "moduleResolution": "node",
     "importHelpers": true,

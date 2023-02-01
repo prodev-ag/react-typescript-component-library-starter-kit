@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "storybook": "start-storybook -p 6006",
+    "build": "echo 'not required'",
     "build-storybook": "build-storybook",
     "lint": "prettier --write 'stories/**/*.{ts,tsx}' && eslint 'stories/**/*.{ts,tsx}'"
   },
